@@ -11,6 +11,7 @@ const navItems = [
   { label: "Blueprint", href: "#facility-blueprint" },
   { label: "30 Actions", href: "#climate-actions" },
   { label: "Impact", href: "#impact" },
+  { label: "Team", href: "#team" },
 ];
 
 export function Navbar() {

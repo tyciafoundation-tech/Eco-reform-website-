@@ -7,7 +7,7 @@ import { FacilityBlueprint } from "@/components/eco/FacilityBlueprint";
 import { ClimateActions } from "@/components/eco/ClimateActions";
 import { PillarsSection } from "@/components/eco/PillarsSection";
 import { ImpactStories } from "@/components/eco/ImpactStories";
-import { TyciaFoundation } from "@/components/eco/TyciaFoundation";
+import { TeamSection } from "@/components/eco/TeamSection";
 import { PartnersSection } from "@/components/eco/PartnersSection";
 import { Footer } from "@/components/eco/Footer";
 
@@ -39,7 +39,7 @@ function Index() {
         <ClimateActions />
         <PillarsSection />
         <ImpactStories />
-        <TyciaFoundation />
+        <TeamSection />
         <PartnersSection />
       </main>
       <Footer />
