@@ -7,6 +7,7 @@ interface StoryItem {
   title: string;
   quote: string;
   avatar: string;
+  logo?: string;
   name: string;
   outcome: string;
 }
@@ -29,6 +30,7 @@ const stories: StoryItem[] = [
     quote:
       "“A commitment to supporting initiatives that focus on climate action, creating a healthier environment, and improving livelihoods. As a Zerodha-funded initiative, we preserve and regenerate ecosystems and serve as key funder of the Millet Revival Project.”",
     avatar: "R",
+    logo: "/images/rainmatter-foundation-logo.png",
     name: "Rainmatter Foundation",
     outcome: "Zerodha-Funded · Millet Revival Project Funder",
   },
@@ -86,8 +88,12 @@ export function ImpactStories() {
               </div>
 
               <div className="pt-3 mt-3 border-t border-[#E2DDD2] flex items-center gap-3">
-                <div className="size-9 rounded-full bg-[#12560E] text-[#B9F079] font-black text-xs flex items-center justify-center shrink-0">
-                  {story.avatar}
+                <div className="size-9 rounded-full bg-[#12560E] text-[#B9F079] font-black text-xs flex items-center justify-center shrink-0 overflow-hidden border border-[#E2DDD2]">
+                  {story.logo ? (
+                    <img src={story.logo} alt={story.name} className="h-full w-full object-contain p-1 bg-white" />
+                  ) : (
+                    story.avatar
+                  )}
                 </div>
                 <div>
                   <p className="text-xs font-bold text-[#1A1C19]">{story.name}</p>
