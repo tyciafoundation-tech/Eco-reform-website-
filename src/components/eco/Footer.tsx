@@ -102,13 +102,15 @@ export function Footer() {
             </p>
 
             <div className="flex items-center gap-4">
-              <button
-                type="button"
-                onClick={() => setBrochureOpen(true)}
-                className="hover:text-white underline"
+              <a
+                href="/eco-reform-field-brochure.pdf"
+                download="eco-reform-field-brochure.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white underline flex items-center gap-1.5"
               >
-                Field Brochure
-              </button>
+                <span>Field Brochure (PDF)</span>
+              </a>
             </div>
           </div>
         </div>

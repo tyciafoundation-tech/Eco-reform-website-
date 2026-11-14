@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X, BookOpen } from "lucide-react";
+import { Menu, X, BookOpen, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Logo } from "./Logo";
 import { BrochureModal } from "./BrochureModal";
@@ -21,13 +21,13 @@ export function Navbar() {
   return (
     <>
       {/* Top Banner Announcement Pill */}
-      <div className="bg-[#12560E] text-white text-[11px] sm:text-xs py-1.5 px-3 sm:px-4 font-semibold border-b border-[#0D3F0A]">
+      <div className="bg-[#12560E] text-white text-[10px] sm:text-[11px] py-1 px-3 sm:px-4 font-semibold border-b border-[#0D3F0A]">
         <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
-          <div className="flex items-center gap-1.5 sm:gap-2 min-w-0">
-            <span className="px-2 py-0.5 rounded-full text-[9px] sm:text-[10px] font-black bg-[#B9F079] text-[#12560E] uppercase tracking-wider shrink-0">
+          <div className="flex items-center gap-1.5 min-w-0">
+            <span className="px-1.5 py-0.5 rounded-full text-[9px] font-black bg-[#B9F079] text-[#12560E] uppercase tracking-wider shrink-0">
               Nuh Pilot Active
             </span>
-            <span className="text-white/90 text-[11px] sm:text-xs truncate hidden xs:inline sm:inline">
+            <span className="text-white/90 text-[10px] sm:text-[11px] truncate hidden xs:inline sm:inline">
               Validated by Prisons Dept., Haryana & Rainmatter
             </span>
           </div>
@@ -39,19 +39,19 @@ export function Navbar() {
 
       {/* Main Sticky Header */}
       <header className="sticky top-0 z-40 bg-[#FAF9F5]/95 backdrop-blur-md border-b border-[#E2DDD2] transition-all">
-        <div className="max-w-7xl mx-auto flex items-center justify-between h-16 sm:h-20 md:h-24 px-3 sm:px-6">
-          {/* Prominently Enlarged Logo */}
-          <div className="flex items-center py-1 sm:py-2">
-            <Logo size="md" />
+        <div className="max-w-7xl mx-auto flex items-center justify-between h-12 sm:h-14 md:h-15 px-3 sm:px-6">
+          {/* Sleek Logo */}
+          <div className="flex items-center py-1">
+            <Logo size="sm" />
           </div>
 
           {/* Desktop Nav Items */}
-          <nav className="hidden lg:flex items-center gap-2">
+          <nav className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="px-3.5 py-2 text-sm font-bold text-[#4B5346] hover:text-[#12560E] hover:bg-[#EBF4E8] rounded-xl transition-colors"
+                className="px-3 py-1.5 text-xs font-bold text-[#4B5346] hover:text-[#12560E] hover:bg-[#EBF4E8] rounded-xl transition-colors"
               >
                 {item.label}
               </a>
@@ -59,15 +59,23 @@ export function Navbar() {
           </nav>
 
           {/* Action CTAs */}
-          <div className="flex items-center gap-1.5 sm:gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-2.5">
             <Button
+              asChild
               variant="outline"
               size="sm"
-              onClick={() => setBrochureOpen(true)}
-              className="inline-flex items-center gap-1.5 text-xs font-bold border-[#CDE5C2] bg-white text-[#12560E] hover:bg-[#EBF4E8] h-9 sm:h-10 px-3 sm:px-4 rounded-xl"
+              className="inline-flex items-center gap-1.5 text-xs font-bold border-[#CDE5C2] bg-white text-[#12560E] hover:bg-[#EBF4E8] h-8 sm:h-8.5 px-3 rounded-xl shadow-2xs"
             >
-              <BookOpen className="size-4 text-[#52A638]" />
-              <span>Field Brochure</span>
+              <a
+                href="/eco-reform-field-brochure.pdf"
+                download="eco-reform-field-brochure.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BookOpen className="size-3.5 text-[#52A638]" />
+                <span>Field Brochure</span>
+                <Download className="size-3 text-[#12560E] opacity-75" />
+              </a>
             </Button>
 
             {/* Mobile menu trigger */}
@@ -98,15 +106,23 @@ export function Navbar() {
               ))}
               <div className="pt-4 border-t border-[#E2DDD2] flex flex-col gap-2.5">
                 <Button
+                  asChild
                   variant="outline"
                   size="lg"
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                    setBrochureOpen(true);
-                  }}
                   className="w-full justify-center border-[#CDE5C2] text-[#12560E] font-bold"
                 >
-                  <BookOpen className="size-4 mr-2" /> Field Brochure
+                  <a
+                    href="/eco-reform-field-brochure.pdf"
+                    download="eco-reform-field-brochure.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex items-center justify-center gap-2"
+                  >
+                    <BookOpen className="size-4 mr-1" />
+                    <span>Download Field Brochure</span>
+                    <Download className="size-3.5" />
+                  </a>
                 </Button>
               </div>
             </nav>

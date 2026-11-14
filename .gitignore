@@ -36,6 +36,7 @@ photo/
 photos/
 *.pptx
 *.pdf
+!public/*.pdf
 /Logo Eco-Refrom.png
 /karansir.jpeg
 

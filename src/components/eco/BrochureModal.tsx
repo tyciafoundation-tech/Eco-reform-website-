@@ -143,14 +143,20 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
             </div>
             <div className="flex items-center gap-2">
               <Button
+                asChild
                 variant="outline"
                 size="sm"
-                className="w-full sm:w-auto bg-white border-[#CDE5C2] text-[#12560E] hover:bg-[#EBF4E8] text-xs font-bold h-9 px-4 rounded-xl touch-manipulation justify-center"
-                onClick={() => {
-                  window.print();
-                }}
+                className="w-full sm:w-auto bg-white border-[#CDE5C2] text-[#12560E] hover:bg-[#EBF4E8] text-xs font-bold h-9 px-4 rounded-xl touch-manipulation justify-center shadow-2xs"
               >
-                <Download className="size-3.5 mr-1.5 shrink-0" /> Download / Print SOP
+                <a
+                  href="/eco-reform-field-brochure.pdf"
+                  download="eco-reform-field-brochure.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5"
+                >
+                  <Download className="size-3.5 shrink-0" /> Download Official Brochure PDF
+                </a>
               </Button>
             </div>
           </div>
