@@ -88,7 +88,7 @@ export function Footer() {
                   <a href="mailto:tyciafoundation@gmail.com" className="text-[#B9F079] hover:underline font-semibold break-all">
                     tyciafoundation@gmail.com
                   </a>{" "}
-                  • +91 880573488
+                  • +91 8800573488
                 </p>
                 <p className="text-[11px] text-white/50">N-33, 2nd Floor, Green Park Ext., New Delhi</p>
               </div>

@@ -54,8 +54,8 @@ export function TyciaFoundation() {
               <a href="mailto:Karanpsc@gmail.com" className="font-bold text-[#12560E] hover:underline flex items-center gap-1.5 truncate">
                 <Mail className="size-3.5 shrink-0" /> <span className="truncate">Karanpsc@gmail.com</span>
               </a>
-              <a href="tel:+91880573488" className="font-semibold text-[#5A6255] hover:text-[#1A1C19] flex items-center gap-1.5 shrink-0">
-                <Phone className="size-3.5 shrink-0" /> +91 880573488
+              <a href="tel:+918800573488" className="font-semibold text-[#5A6255] hover:text-[#1A1C19] flex items-center gap-1.5 shrink-0">
+                <Phone className="size-3.5 shrink-0" /> +91 8800573488
               </a>
             </div>
           </div>

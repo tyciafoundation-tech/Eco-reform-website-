@@ -1,48 +1,58 @@
 import React from "react";
-import { Quote } from "lucide-react";
+import { ThermometerSun, Sprout, GraduationCap, Building2, CheckCircle2, ShieldCheck } from "lucide-react";
+import gardenFieldPhoto from "@/images/eco-reform-pilot-kitchen-garden-nuh.jpg";
 
-interface StoryItem {
+interface FieldUpdateItem {
   id: string;
   category: string;
   title: string;
-  quote: string;
-  avatar: string;
-  logo?: string;
-  name: string;
-  outcome: string;
+  description: string;
+  status: string;
+  icon: React.ComponentType<{ className?: string }>;
+  photo?: string;
+  photoAlt?: string;
+  photoCaption?: string;
 }
 
-const stories: StoryItem[] = [
+const fieldUpdates: FieldUpdateItem[] = [
   {
-    id: "fertile-beeghas",
-    category: "Regenerative Agriculture",
-    title: "Master Trainer-Led Vermicomposting & Soil Revitalization",
-    quote:
-      "“Certified by the Ministry of Agriculture & Farmers Welfare, we spearhead organic waste transformation. Having trained 2,500+ individuals and converted over 5 million kilograms of organic waste into rich soil amendments, we revitalize degraded soils and combat climate change.”",
-    avatar: "F",
-    name: "Fertile Beeghas",
-    outcome: "Master Trainer · 2,500+ Trained & 5M kg Waste Scaled",
+    id: "heat-adaptation",
+    category: "Heat Adaptation",
+    title: "Heat Adaptation at Nuh District Jail",
+    description:
+      "XLPE sheet-based protective covers installed on water tanks as a practical heat adaptation intervention to prevent extreme water heating during peak summer temperatures.",
+    status: "Implemented Intervention",
+    icon: ThermometerSun,
   },
   {
-    id: "rainmatter-foundation",
-    category: "Ecological Restoration",
-    title: "Backing Climate Action & Sustainable Livelihoods",
-    quote:
-      "“A commitment to supporting initiatives that focus on climate action, creating a healthier environment, and improving livelihoods. As a Zerodha-funded initiative, we preserve and regenerate ecosystems and serve as key funder of the Millet Revival Project.”",
-    avatar: "R",
-    logo: "/images/rainmatter-foundation-logo.png",
-    name: "Rainmatter Foundation",
-    outcome: "Zerodha-Funded · Millet Revival Project Funder",
+    id: "kitchen-garden",
+    category: "Nutritional Resilience",
+    title: "Kitchen Gardening Initiative",
+    description:
+      "Permission secured and seeds and essential gardening tools arranged in preparation for implementation across the mapped Pak Shala demonstration compound.",
+    status: "Prepared for Cultivation",
+    icon: Sprout,
+    photo: gardenFieldPhoto,
+    photoAlt: "Authentic field photograph of kitchen garden preparation and tools at Nuh District Jail",
+    photoCaption: "Field Record: Ground preparation & gardening tools arranged at Nuh District Jail",
   },
   {
-    id: "community-organic-farming",
-    category: "Community Adaptation",
-    title: "Household Organic Cultivation Amid Heat & Water Stress",
-    quote:
-      "“Confronting soil moisture deficits, high heat, and water challenges, community members received hands-on training in organic farming—enabling families to utilize local resources, grow fresh vegetables at home, and sustain positive everyday change.”",
-    avatar: "S",
-    name: "Shivani",
-    outcome: "Team Member · Field Training & Community Impact",
+    id: "climate-awareness",
+    category: "Stakeholder Education",
+    title: "Climate Awareness",
+    description:
+      "Climate awareness sessions conducted to promote environmental understanding and climate-adaptive practices among prison stakeholders, custodial staff, and inmate cohorts.",
+    status: "Field Sessions Conducted",
+    icon: GraduationCap,
+  },
+  {
+    id: "institutional-collaboration",
+    category: "Systemic Reform",
+    title: "Institutional Collaboration",
+    description:
+      "Continued engagement with prison administration to explore, design, and validate climate-resilience interventions within correctional facilities.",
+    status: "Ongoing Engagement",
+    icon: Building2,
   },
 ];
 
@@ -53,55 +63,78 @@ export function ImpactStories() {
         {/* Header */}
         <div className="max-w-2xl mb-6 sm:mb-8 space-y-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#EBF4E8] text-[#12560E] text-xs font-bold uppercase tracking-wider">
-            Lived Realities
+            Field Evidence
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#1A1C19] tracking-tight">
-            Verified Impact
+            Verified Field Impact
           </h2>
           <p className="text-xs sm:text-base text-[#5A6255]">
-            Real stories of restored dignity, reduced heat aggression, and reintegration livelihoods.
+            Documented on-ground progress and verified interventions underway at Nuh District Jail, Haryana.
           </p>
         </div>
 
-        {/* 3 Story Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 sm:gap-5">
-          {stories.map((story) => (
-            <div
-              key={story.id}
-              className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#FAF9F5] border border-[#E2DDD2] flex flex-col justify-between hover:border-[#A8CCA0] transition-all shadow-xs"
-            >
-              <div className="space-y-3">
-                <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#12560E] bg-white px-2 py-0.5 rounded-md border border-[#E2DDD2]">
-                    {story.category}
-                  </span>
-                  <Quote className="size-4 text-[#52A638]/50" />
-                </div>
+        {/* 4 Field Update Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+          {fieldUpdates.map((update) => {
+            const Icon = update.icon;
+            return (
+              <div
+                key={update.id}
+                className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#FAF9F5] border border-[#E2DDD2] flex flex-col justify-between hover:border-[#A8CCA0] transition-all shadow-xs"
+              >
+                <div className="space-y-3.5">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#12560E] bg-white px-2.5 py-1 rounded-md border border-[#E2DDD2]">
+                      {update.category}
+                    </span>
+                    <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-[#12560E] bg-[#EBF4E8] px-2.5 py-0.5 rounded-full border border-[#CDE5C2]">
+                      <CheckCircle2 className="size-3 text-[#52A638] shrink-0" />
+                      <span>{update.status}</span>
+                    </span>
+                  </div>
 
-                <h3 className="font-extrabold text-sm sm:text-base text-[#1A1C19]">
-                  {story.title}
-                </h3>
+                  <div className="flex items-start gap-3">
+                    <div className="p-2.5 rounded-xl bg-white text-[#12560E] border border-[#E2DDD2] shrink-0 shadow-2xs">
+                      <Icon className="size-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-extrabold text-base sm:text-lg text-[#1A1C19] leading-snug">
+                        {update.title}
+                      </h3>
+                    </div>
+                  </div>
 
-                <p className="text-xs text-[#5A6255] leading-relaxed italic">
-                  {story.quote}
-                </p>
-              </div>
+                  <p className="text-xs sm:text-sm text-[#4B5346] leading-relaxed">
+                    {update.description}
+                  </p>
 
-              <div className="pt-3 mt-3 border-t border-[#E2DDD2] flex items-center gap-3">
-                <div className="size-9 rounded-full bg-[#12560E] text-[#B9F079] font-black text-xs flex items-center justify-center shrink-0 overflow-hidden border border-[#E2DDD2]">
-                  {story.logo ? (
-                    <img src={story.logo} alt={story.name} className="h-full w-full object-contain p-1 bg-white" />
-                  ) : (
-                    story.avatar
+                  {/* Photo if available */}
+                  {update.photo && (
+                    <div className="pt-2">
+                      <div className="relative rounded-xl overflow-hidden border border-[#E2DDD2] aspect-[16/10] bg-white shadow-xs">
+                        <img
+                          src={update.photo}
+                          alt={update.photoAlt}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                        <div className="absolute bottom-0 inset-x-0 bg-black/60 backdrop-blur-xs p-2 text-[11px] text-white font-medium">
+                          {update.photoCaption}
+                        </div>
+                      </div>
+                    </div>
                   )}
                 </div>
-                <div>
-                  <p className="text-xs font-bold text-[#1A1C19]">{story.name}</p>
-                  <p className="text-[11px] font-semibold text-[#12560E]">{story.outcome}</p>
+
+                <div className="pt-3 mt-3 border-t border-[#E2DDD2] flex items-center justify-between text-xs text-[#5A6255]">
+                  <span className="font-semibold flex items-center gap-1.5 text-[#12560E]">
+                    <ShieldCheck className="size-3.5" /> Eco-Reform Field Record
+                  </span>
+                  <span className="text-[11px] font-mono text-[#7A8275]">Nuh District Jail</span>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
