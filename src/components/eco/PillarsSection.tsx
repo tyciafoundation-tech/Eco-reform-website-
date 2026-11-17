@@ -25,22 +25,20 @@ export function PillarsSection() {
             <button
               type="button"
               onClick={() => setTab("pillars")}
-              className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition-all text-center touch-manipulation ${
-                tab === "pillars"
+              className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition-all text-center touch-manipulation ${tab === "pillars"
                   ? "bg-[#12560E] text-white shadow-xs"
                   : "text-[#5A6255] hover:text-[#1A1C19]"
-              }`}
+                }`}
             >
               Three Core Pillars
             </button>
             <button
               type="button"
               onClick={() => setTab("pathway")}
-              className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition-all text-center touch-manipulation ${
-                tab === "pathway"
+              className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition-all text-center touch-manipulation ${tab === "pathway"
                   ? "bg-[#12560E] text-white shadow-xs"
                   : "text-[#5A6255] hover:text-[#1A1C19]"
-              }`}
+                }`}
             >
               Replication Pathway
             </button>
@@ -69,15 +67,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Cool Roofs:</strong> Lowers ceiling heat by up to 12°C</span>
+                    <span><strong>Tank Protective Covers:</strong> XLPE thermal insulation installed on water tanks</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Reed Shading:</strong> Deflects 65% direct radiant glare</span>
+                    <span><strong>Passive Cooling:</strong> Solar-reflective roof coating & reed window screens</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Louvers:</strong> Passive night-time air change boost</span>
+                    <span><strong>Ventilation Louvers:</strong> Natural airflow enhancement solutions under development</span>
                   </li>
                 </ul>
               </div>
@@ -102,15 +100,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Monsoon Rain:</strong> 450,000L stored in sand filters</span>
+                    <span><strong>Rainwater Harvesting:</strong> Planned rooftop catchment into sand-gravel filter cisterns</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Vermicompost:</strong> 250kg kitchen scraps recycled daily</span>
+                    <span><strong>Circular Composting:</strong> Organic waste sorting and vermicomposting under development</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Greywater:</strong> Reed beds reclaim 8,000L daily for crops</span>
+                    <span><strong>Greywater Reuse:</strong> Proposed target to explore biofilter treatment for irrigation</span>
                   </li>
                 </ul>
               </div>
@@ -135,15 +133,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>1.2 Acres Beds:</strong> Fresh chemical-free greens for mess</span>
+                    <span><strong>Kitchen Garden:</strong> Pak Shala compound prepared; seeds and essential tools arranged</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Eco-Stewards:</strong> Joint warden & inmate classes</span>
+                    <span><strong>Climate Awareness:</strong> Awareness sessions conducted with prison stakeholders</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Accredited Cert:</strong> Vocational credential for release</span>
+                    <span><strong>Vocational Training:</strong> Practical curriculum under development for sustainable re-entry</span>
                   </li>
                 </ul>
               </div>
