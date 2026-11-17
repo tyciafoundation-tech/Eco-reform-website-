@@ -35,25 +35,25 @@ interface MetricCard {
 
 const impactMetrics: MetricCard[] = [
   {
-    metric: "1.2 Acres",
-    title: "Living Farm Canopy",
-    description: "420kg fresh greens/cycle",
+    metric: "2,069 sq. m.",
+    title: "Total Mapped Demonstration Area",
+    description: "Pak Shala (914 sq. m) & Factory (1,155 sq. m)",
     icon: Sprout,
-    iconAriaLabel: "Farm canopy acreage metric",
+    iconAriaLabel: "Total mapped demonstration area metric",
   },
   {
-    metric: "250 kg/day",
-    title: "Mess Waste Composted",
-    description: "100% kitchen diversion",
+    metric: "Under Development",
+    title: "Circular Waste & Composting Hub",
+    description: "On-site resource recovery model in progress",
     icon: Recycle,
-    iconAriaLabel: "Waste composted metric",
+    iconAriaLabel: "Circular waste model under development metric",
   },
   {
-    metric: "Up to 13°C",
-    title: "Summer Water-Tank Covers",
-    description: "Temperature reduction during summer",
+    metric: "Heat Adaptation",
+    title: "Water Tank Protective Covers",
+    description: "XLPE insulation installed at Nuh Jail",
     icon: ThermometerSun,
-    iconAriaLabel: "Summer water-tank temperature reduction metric",
+    iconAriaLabel: "Heat adaptation protective tank covers metric",
   },
 ];
 

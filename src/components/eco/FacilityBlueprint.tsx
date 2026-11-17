@@ -32,6 +32,8 @@ interface SchematicZone {
   coordinates: string;
   tag: string;
   tagColor: string;
+  statusBadge: string;
+  statusBadgeColor: string;
   headline: string;
   recordedImpact: string;
   recordedImpactLabel: string;
@@ -52,45 +54,53 @@ const schematics: SchematicZone[] = [
     coordinates: "Lat 28.107° N, Long 77.004° E • Pak Shala Zone",
     tag: "NUTRITION & GREEN CANOPY",
     tagColor: "bg-[#EBF4E8] text-[#12560E]",
-    headline: "1.2-Acre Permaculture Kitchen Garden",
-    recordedImpactLabel: "Recorded Field Impact",
-    recordedImpact: "420 kg organic greens harvested per cycle",
+    statusBadge: "Implementation In Progress",
+    statusBadgeColor: "bg-[#EBF4E8] text-[#12560E]",
+    headline: "Demonstration Kitchen Garden (Pak Shala)",
+    recordedImpactLabel: "Implementation Status",
+    recordedImpact: "Permission secured; seeds & essential gardening tools arranged",
     description:
-      "Courtyard and peripheral buffer converted into raised vegetable beds growing moringa, spinach, and seasonal gourds for daily barrack mess nutrition.",
+      "A total mapped area of 914 sq.m surveyed for kitchen gardening. Mapped compound boundaries include peripheral buffers and designated raised beds prepared for vegetable cultivation to supplement barrack mess nutrition.",
     breakdown: [
       { label: "Main Perimeter Bed", area: "480 sq.m (80m × 6m)" },
       { label: "West Kitchen Plot", area: "130 sq.m (10m × 13m)" },
       { label: "East Flank Garden", area: "304 sq.m (8m × 38m)" },
     ],
     bulletPoints: [
-      "Supplements inmate mess with fresh daily vitamins & iron",
-      "Managed by 120+ active incarcerated agricultural trainees",
+      "Total mapped zone of 914 sq.m encompasses peripheral beds and open buffers",
+      "Clearly distinguishes mapped compound area from actual cultivated vegetable plots",
+      "Permission secured and initial seeds/tools arranged in preparation for full planting",
+      "Engages incarcerated trainees in hands-on agroecological and gardening activities",
     ],
   },
   {
     id: "factory-area",
     title: "Factory Area — Industrial Eco-Production Compound",
     shortTitle: "Factory Area (1,155 sq.m)",
-    subtitle: "Inmate Vocational Training, Composting & Solid Waste Recovery Zone",
+    subtitle: "Proposed Inmate Vocational Training, Composting & Solid Waste Recovery Zone",
     totalArea: "1,155 sq. meters",
     image: "/images/nuh-prison-factory-area-schematic.png",
     alt: "Factory Area Land Area Mapping - Total 1,155 sq. meters for Industrial Eco-Production at Nuh District Jail",
     coordinates: "Lat 28.107° N, Long 77.004° E • Factory Sector",
     tag: "VOCATIONAL & CIRCULAR PRODUCTION",
-    tagColor: "bg-[#EBF4E8] text-[#12560E]",
+    tagColor: "bg-[#FEF9C3] text-[#854D0E]",
+    statusBadge: "Under Development",
+    statusBadgeColor: "bg-[#FEF9C3] text-[#854D0E]",
     headline: "Circular Waste & Vocational Production Hub",
-    recordedImpactLabel: "Circular Resource Recovery",
-    recordedImpact: "100% prison organic waste recycled on-site",
+    recordedImpactLabel: "Resource Recovery Target",
+    recordedImpact: "Proposed Target: On-site organic waste processing & circular recycling",
     description:
-      "Industrial workshops and surrounding compounds retrofitted for vermicomposting, bio-char enrichment, circular recycling, and certified vocational training.",
+      "A total mapped industrial compound of 1,155 sq.m surveyed for retrofitting into vermicomposting, biochar enrichment, circular recycling, and vocational training facilities (currently under development).",
     breakdown: [
       { label: "West Workshop Flank", area: "420 sq.m (12m × 35m)" },
       { label: "North Yard Canopy", area: "350 sq.m (50m × 7m)" },
       { label: "East Processing Unit", area: "385 sq.m (11m × 35m)" },
     ],
     bulletPoints: [
-      "Accredited organic waste upcycling & bio-amendment production",
-      "Vocational rehabilitation equipping inmates for green livelihoods",
+      "West (420 sq.m) + North (350 sq.m) + East (385 sq.m) precisely total 1,155 sq.m",
+      "Proposed model under development for on-site organic composting & recycling",
+      "Targeting progressive diversion of kitchen waste upon full commissioning",
+      "Vocational training modules designed to equip inmates with green livelihood skills",
     ],
   },
 ];
@@ -123,7 +133,7 @@ export function FacilityBlueprint() {
               Interactive Schematic
             </h2>
             <p className="text-sm sm:text-base text-[#5A6255]">
-              Land area mapping and physical interventions situated inside the correctional compound. Slide between zones to inspect measurements.
+              Land area mapping at Nuh District Jail: <strong>Pak Shala (914 sq. m.)</strong> and <strong>Factory Area (1,155 sq. m.)</strong>, comprising a <strong>combined demonstration total of 2,069 sq. m.</strong> (approx. 0.51 acres). Mapped compound boundaries are clearly distinguished from actual cultivated garden plots.
             </p>
           </div>
 
@@ -162,11 +172,10 @@ export function FacilityBlueprint() {
                     key={zone.id}
                     type="button"
                     onClick={() => setActiveSlide(idx)}
-                    className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
-                      activeSlide === idx
+                    className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${activeSlide === idx
                         ? "bg-[#B9F079] text-[#12560E] shadow-xs"
                         : "text-white/75 hover:text-white hover:bg-white/5"
-                    }`}
+                      }`}
                   >
                     {zone.shortTitle}
                   </button>
@@ -256,9 +265,8 @@ export function FacilityBlueprint() {
                     key={zone.id}
                     type="button"
                     onClick={() => setActiveSlide(idx)}
-                    className={`h-2 rounded-full transition-all ${
-                      activeSlide === idx ? "w-6 bg-[#B9F079]" : "w-2 bg-white/30 hover:bg-white/50"
-                    }`}
+                    className={`h-2 rounded-full transition-all ${activeSlide === idx ? "w-6 bg-[#B9F079]" : "w-2 bg-white/30 hover:bg-white/50"
+                      }`}
                     aria-label={`Go to slide ${idx + 1}`}
                   />
                 ))}
@@ -269,7 +277,7 @@ export function FacilityBlueprint() {
 
               <div className="hidden sm:flex items-center gap-2 text-[11px] text-[#B9F079] font-bold">
                 <Ruler className="size-3.5" />
-                <span>Total Measured Area: {currentZone.totalArea}</span>
+                <span>Zone: {currentZone.totalArea} • Combined Total: 2,069 sq.m (~0.51 acres)</span>
               </div>
             </div>
           </div>
@@ -280,9 +288,9 @@ export function FacilityBlueprint() {
               <span className={`text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded-md ${currentZone.tagColor}`}>
                 {currentZone.tag}
               </span>
-              <span className="text-xs font-bold text-[#52A638] flex items-center gap-1">
-                <span className="size-2 rounded-full bg-[#52A638] animate-pulse" />
-                Active Model
+              <span className={`text-xs font-bold px-2.5 py-0.5 rounded-md flex items-center gap-1.5 ${currentZone.statusBadgeColor}`}>
+                <span className="size-2 rounded-full bg-current animate-pulse" />
+                {currentZone.statusBadge}
               </span>
             </div>
 
@@ -292,6 +300,21 @@ export function FacilityBlueprint() {
               </h3>
               <p className="text-[11px] font-semibold text-[#12560E] mt-0.5">
                 {currentZone.title} • {currentZone.totalArea}
+              </p>
+            </div>
+
+            {/* Total Mapped Area & Combined Demonstration Info */}
+            <div className="p-3 rounded-2xl bg-[#FAF9F5] border border-[#E2DDD2] space-y-1.5">
+              <div className="flex items-center justify-between text-xs">
+                <span className="text-[#5A6255] font-semibold">Zone Mapped Area:</span>
+                <span className="font-extrabold text-[#1A1C19]">{currentZone.totalArea}</span>
+              </div>
+              <div className="flex items-center justify-between text-xs">
+                <span className="text-[#5A6255] font-semibold">Combined Total (2 Zones):</span>
+                <span className="font-extrabold text-[#12560E]">2,069 sq. m. (~0.51 acres)</span>
+              </div>
+              <p className="text-[10px] text-[#7A8275] pt-1 border-t border-[#E2DDD2]/60 leading-tight">
+                *Clearly distinguishing mapped compound boundary from designated cultivated plots.
               </p>
             </div>
 
@@ -377,11 +400,10 @@ export function FacilityBlueprint() {
                     key={zone.id}
                     type="button"
                     onClick={() => setActiveSlide(idx)}
-                    className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
-                      activeSlide === idx
+                    className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${activeSlide === idx
                         ? "bg-[#B9F079] text-[#12560E]"
                         : "text-white/70 hover:text-white"
-                    }`}
+                      }`}
                   >
                     {zone.shortTitle}
                   </button>
@@ -426,7 +448,7 @@ export function FacilityBlueprint() {
                 ))}
               </div>
               <span className="font-mono text-[11px] text-[#12560E]">
-                Total: {currentZone.totalArea}
+                Zone: {currentZone.totalArea} | Combined Demonstration: 2,069 sq.m (~0.51 acres)
               </span>
             </div>
           </div>
