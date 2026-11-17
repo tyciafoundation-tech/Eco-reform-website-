@@ -60,10 +60,10 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
             </div>
             <div className="p-3.5 sm:p-4 rounded-xl bg-white border border-[#E2DDD2] shadow-sm">
               <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-[#12560E]">
-                Verified Cooling
+                Heat Adaptation
               </span>
-              <p className="text-base sm:text-lg font-bold mt-0.5 sm:mt-1 text-[#12560E]">3.5°C to 5.2°C Drop</p>
-              <p className="text-[11px] sm:text-xs text-[#5A6255] mt-0.5">High-albedo barrack cool roofing</p>
+              <p className="text-base sm:text-lg font-bold mt-0.5 sm:mt-1 text-[#12560E]">Passive Cooling</p>
+              <p className="text-[11px] sm:text-xs text-[#5A6255] mt-0.5">Tank covers & reflective coating</p>
             </div>
           </div>
 
@@ -95,8 +95,7 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
                     2. Decentralized Water & Waste
                   </h5>
                   <p className="text-[11px] sm:text-xs text-[#5A6255] mt-1 leading-relaxed">
-                    450,000L monsoon harvesting and 250kg daily organic kitchen waste diversion into
-                    vermicompost.
+                    Rainwater catchment planning and decentralized organic waste processing models under development.
                   </p>
                 </div>
               </div>
@@ -107,11 +106,10 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
                 </div>
                 <div>
                   <h5 className="font-semibold text-xs sm:text-sm text-[#1A1C19]">
-                    3. Permaculture & Nutrition
+                    3. Kitchen Garden Compound
                   </h5>
                   <p className="text-[11px] sm:text-xs text-[#5A6255] mt-1 leading-relaxed">
-                    1.2-acre living canopy supplying 420kg of fresh organic vegetables directly to
-                    barrack daily diets.
+                    Mapped Pak Shala demonstration area prepared with seeds and tools for fresh nutritional vegetable beds.
                   </p>
                 </div>
               </div>
@@ -125,8 +123,7 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
                     4. Restorative Vocational SOP
                   </h5>
                   <p className="text-[11px] sm:text-xs text-[#5A6255] mt-1 leading-relaxed">
-                    Accredited certificate coursework in organic nursery operations and custodial
-                    eco-maintenance.
+                    Vocational training framework under development for nursery operations and custodial eco-maintenance.
                   </p>
                 </div>
               </div>
