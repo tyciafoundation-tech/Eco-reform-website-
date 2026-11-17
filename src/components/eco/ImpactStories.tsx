@@ -1,5 +1,6 @@
 import React from "react";
 import { ThermometerSun, Sprout, GraduationCap, Building2, CheckCircle2, ShieldCheck } from "lucide-react";
+import nuhJailPhoto from "@/images/district-jail-nuh-entrance.jpg";
 import gardenFieldPhoto from "@/images/eco-reform-pilot-kitchen-garden-nuh.jpg";
 
 interface FieldUpdateItem {
@@ -23,6 +24,9 @@ const fieldUpdates: FieldUpdateItem[] = [
       "XLPE sheet-based protective covers installed on water tanks as a practical heat adaptation intervention to prevent extreme water heating during peak summer temperatures.",
     status: "Implemented Intervention",
     icon: ThermometerSun,
+    photo: nuhJailPhoto,
+    photoAlt: "Nuh District Jail main entrance - Pilot location for Eco-Reform interventions",
+    photoCaption: "Field Facility: District Jail, Nuh (Haryana) — Pilot Implementation Site",
   },
   {
     id: "kitchen-garden",
