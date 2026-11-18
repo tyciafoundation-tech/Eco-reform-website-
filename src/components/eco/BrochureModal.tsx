@@ -134,7 +134,7 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
             <div className="flex items-center gap-2">
               <CheckCircle2 className="size-4 sm:size-5 text-[#12560E] shrink-0" />
               <span className="text-xs sm:text-sm font-semibold text-[#12560E] leading-snug">
-                Validated with Haryana Prisons Dept. & Supported by Rainmatter Foundation
+                Validated with Haryana Prisons Dept. & Mentorship Support by Rainmatter Foundation
               </span>
             </div>
             <div className="flex items-center gap-2">

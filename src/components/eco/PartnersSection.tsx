@@ -13,7 +13,7 @@ export function PartnersSection() {
             Institutional Partners & Collaborations
           </h2>
           <p className="text-xs sm:text-base text-[#5A6255]">
-            Bridging correctional administration with environmental philanthropy, agroecological expertise, and youth climate movements.
+            Bridging correctional administration with mentorship networks, agroecological expertise, and youth climate movements.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export function PartnersSection() {
                   </div>
                   <div>
                     <h3 className="text-base sm:text-lg font-black text-[#1A1C19]">Rainmatter Foundation</h3>
-                    <p className="text-xs font-bold text-[#12560E]">Catalytic Philanthropic Partner • Zerodha</p>
+                    <p className="text-xs font-bold text-[#12560E]">Mentorship & Ecosystem Partner • Zerodha</p>
                   </div>
                 </div>
                 <div className="self-start sm:self-auto shrink-0 h-10 px-2.5 py-1 bg-white rounded-xl flex items-center justify-center border border-[#E2DDD2] shadow-2xs">
@@ -80,7 +80,7 @@ export function PartnersSection() {
               </div>
 
               <p className="text-xs text-[#5A6255] leading-relaxed mb-2">
-                Providing catalytic funding, mentorship, and ecosystem backing to support climate action and sustainable livelihoods in correctional spaces.
+                Providing mentorship, advisory backing, and ecosystem guidance to support climate action and sustainable livelihoods in correctional spaces.
               </p>
 
               {/* Partner Testimonial Quote */}
@@ -93,7 +93,7 @@ export function PartnersSection() {
             <ul className="space-y-1.5 text-xs text-[#3A4036] pt-2 border-t border-[#E2DDD2]">
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0" />
-                <span>Catalytic funding for eco-resilience pilot interventions</span>
+                <span>Mentorship support for climate resilience interventions</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0" />
