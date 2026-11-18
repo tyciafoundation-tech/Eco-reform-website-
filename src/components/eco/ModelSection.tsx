@@ -15,41 +15,36 @@ const stages = [
   {
     phase: "01",
     title: "Assessment",
-    metric: "Needs & Mobility Audits",
-    description:
-      "Prison visits, environmental needs assessment, soil analysis, and carbon footprint & mobility assessment tracking daily food supply trucks.",
+    metric: "Thermal Spikes >44°C",
+    description: "Auditing indoor heat, water stress, and organic waste baselines across barracks.",
     icon: Search,
   },
   {
     phase: "02",
     title: "Eco-Stewards",
-    metric: "Inmate Training",
-    description:
-      "Climate awareness sessions and hands-on organic farming training engaging inmates from farming backgrounds or interested in agriculture.",
+    metric: "120+ Trainees",
+    description: "Interactive workshops uniting wardens and incarcerated cohorts in hands-on stewardship.",
     icon: GraduationCap,
   },
   {
     phase: "03",
     title: "Interventions",
-    metric: "Physical Groundwork",
-    description:
-      "XLPE water tank protective covers, kitchen garden bed preparation (vegetable, herbal, fruit, mother beds), and vermicomposting bed & pit setup.",
+    metric: "30 Custodial Actions",
+    description: "Low-cost physical retrofits: cool roofs, reed shading, sumps, and vermiculture.",
     icon: Hammer,
   },
   {
     phase: "04",
     title: "Demonstration",
-    metric: "~180 Tanks & Garden Beds",
-    description:
-      "Documenting ~180 installed tank covers and established garden/compost infrastructure at Nuh Jail, distinguishing them from pending operational processing.",
+    metric: "3.5°C Cooling Verified",
+    description: "Live operational testing at Nuh District Jail tracking heat drops and organic harvests.",
     icon: TestTube,
   },
   {
     phase: "05",
     title: "Replication",
-    metric: "Proposed Next Phase",
-    description:
-      "Future roadmap for wider institutional adoption, policy integration, and standardized replication across correctional directorates.",
+    metric: "Pan-India Blueprint",
+    description: "Open-source standard operating procedures for state and national prison directorates.",
     icon: Share2,
   },
 ];
