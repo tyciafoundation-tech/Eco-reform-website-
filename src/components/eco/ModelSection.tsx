@@ -15,36 +15,41 @@ const stages = [
   {
     phase: "01",
     title: "Assessment",
-    metric: "Vulnerability Audit",
-    description: "Auditing indoor heat, water stress, and organic waste baselines across barracks.",
+    metric: "Needs & Mobility Audits",
+    description:
+      "Prison visits, environmental needs assessment, soil analysis, and carbon footprint & mobility assessment tracking daily food supply trucks.",
     icon: Search,
   },
   {
     phase: "02",
     title: "Eco-Stewards",
-    metric: "Awareness & Training",
-    description: "Climate awareness sessions and hands-on agricultural training engaging prison stakeholders.",
+    metric: "Inmate Training",
+    description:
+      "Climate awareness sessions and hands-on organic farming training engaging inmates from farming backgrounds or interested in agriculture.",
     icon: GraduationCap,
   },
   {
     phase: "03",
     title: "Interventions",
-    metric: "30 Action Framework",
-    description: "Practical low-cost retrofits: tank insulation, shading, water conservation, and composting.",
+    metric: "Physical Groundwork",
+    description:
+      "XLPE water tank protective covers, kitchen garden bed preparation (vegetable, herbal, fruit, mother beds), and vermicomposting bed & pit setup.",
     icon: Hammer,
   },
   {
     phase: "04",
     title: "Demonstration",
-    metric: "Heat & Garden Trials",
-    description: "Practical testing at Nuh District Jail evaluating protective insulation and garden beds.",
+    metric: "~180 Tanks & Garden Beds",
+    description:
+      "Documenting ~180 installed tank covers and established garden/compost infrastructure at Nuh Jail, distinguishing them from pending operational processing.",
     icon: TestTube,
   },
   {
     phase: "05",
     title: "Replication",
-    metric: "Policy Blueprints",
-    description: "Standard operating procedures and documentation for state and national correctional facilities.",
+    metric: "Proposed Next Phase",
+    description:
+      "Future roadmap for wider institutional adoption, policy integration, and standardized replication across correctional directorates.",
     icon: Share2,
   },
 ];

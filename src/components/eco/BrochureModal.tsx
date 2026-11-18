@@ -62,8 +62,8 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
               <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-[#12560E]">
                 Heat Adaptation
               </span>
-              <p className="text-base sm:text-lg font-bold mt-0.5 sm:mt-1 text-[#12560E]">Passive Cooling</p>
-              <p className="text-[11px] sm:text-xs text-[#5A6255] mt-0.5">Tank covers & reflective coating</p>
+              <p className="text-base sm:text-lg font-bold mt-0.5 sm:mt-1 text-[#12560E]">~180 Water Tanks</p>
+              <p className="text-[11px] sm:text-xs text-[#5A6255] mt-0.5">XLPE protective covers installed</p>
             </div>
           </div>
 
@@ -77,11 +77,10 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
                 </div>
                 <div>
                   <h5 className="font-semibold text-xs sm:text-sm text-[#1A1C19]">
-                    1. National Vulnerability Audit
+                    1. Vulnerability & Mobility Audit
                   </h5>
                   <p className="text-[11px] sm:text-xs text-[#5A6255] mt-1 leading-relaxed">
-                    Mapping extreme heat, water distress, and ventilation across 20+ correctional
-                    hotspots in India.
+                    Needs assessment of thermal vulnerabilities, infrastructure conditions, and daily prison food supply logistics.
                   </p>
                 </div>
               </div>
@@ -92,10 +91,10 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
                 </div>
                 <div>
                   <h5 className="font-semibold text-xs sm:text-sm text-[#1A1C19]">
-                    2. Decentralized Water & Waste
+                    2. Composting & Water Systems
                   </h5>
                   <p className="text-[11px] sm:text-xs text-[#5A6255] mt-1 leading-relaxed">
-                    Rainwater catchment planning and decentralized organic waste processing models under development.
+                    Vermicompost beds & pit established on site with earthworms; broader water and waste systems under development.
                   </p>
                 </div>
               </div>
@@ -109,7 +108,7 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
                     3. Kitchen Garden Compound
                   </h5>
                   <p className="text-[11px] sm:text-xs text-[#5A6255] mt-1 leading-relaxed">
-                    Mapped Pak Shala demonstration area prepared with seeds and tools for fresh nutritional vegetable beds.
+                    Mapped Pak Shala compound prepared with vegetable, herbal, fruit, and mother beds, with seeds and tools arranged.
                   </p>
                 </div>
               </div>
@@ -120,10 +119,10 @@ export function BrochureModal({ open, onOpenChange }: BrochureModalProps) {
                 </div>
                 <div>
                   <h5 className="font-semibold text-xs sm:text-sm text-[#1A1C19]">
-                    4. Restorative Vocational SOP
+                    4. Inmate Training & Heat Planning
                   </h5>
                   <p className="text-[11px] sm:text-xs text-[#5A6255] mt-1 leading-relaxed">
-                    Vocational training framework under development for nursery operations and custodial eco-maintenance.
+                    Practical organic farming training for inmates and site-specific Nuh Jail Heat Action Plan development.
                   </p>
                 </div>
               </div>

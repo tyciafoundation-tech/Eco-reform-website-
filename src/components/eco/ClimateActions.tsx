@@ -41,38 +41,38 @@ const actionsData: ClimateAction[] = [
     id: 1,
     category: "infrastructure",
     categoryLabel: "Infrastructure",
-    status: "Verified",
+    status: "Planned",
     title: "High-Albedo Cool Roof Coating",
-    description: "Solar-reflective elastomeric coating applied on concrete roofs to deflect solar heat gain.",
-    impactMetric: "Surface solar reflectance testing; estimated passive cooling potential up to 3.5°C",
+    description: "Solar-reflective elastomeric paint proposed for concrete barrack roofs to bounce thermal radiation.",
+    impactMetric: "Proposed Intervention: High-SRI reflective coating to curb surface heat gain",
     sopSteps: [
       "Surface power-washing of concrete barrack slabs",
       "Primer coat application sealing micro-cracks",
-      "Two coats of SRI >104 elastomeric solar reflective coating",
+      "Two coats of elastomeric solar reflective coating planned for high-heat wards",
     ],
   },
   {
     id: 2,
     category: "infrastructure",
     categoryLabel: "Infrastructure",
-    status: "Active",
+    status: "Planned",
     title: "Bamboo & Reed Window Screens",
-    description: "Woven reed shades placed outside windows to block radiant solar gain.",
-    impactMetric: "Deflects direct solar radiant glare along exterior barrack openings",
+    description: "External woven reed shades proposed for barrack windows to deflect radiant direct solar glare.",
+    impactMetric: "Planned Activity: External shading to deflect radiant solar gain",
     sopSteps: [
       "Sourcing locally woven wild reed lattices",
       "Exterior bracket installation allowing air circulation",
-      "Seasonal upkeep and maintenance by custodial participants",
+      "Seasonal replacement protocol for custodial living blocks",
     ],
   },
   {
     id: 3,
     category: "infrastructure",
     categoryLabel: "Infrastructure",
-    status: "In Progress",
+    status: "Planned",
     title: "Passive Cross-Ventilation Louvers",
-    description: "Clerestory air release vents designed to facilitate convective escape of hot air.",
-    impactMetric: "Designed to enhance night-time air change rate in sleeping barracks",
+    description: "Clerestory ventilation vents proposed to facilitate convective escape of hot air near ceilings.",
+    impactMetric: "Proposed Target: Enhance natural convective air circulation across barracks",
     sopSteps: [
       "Masonry perforation along upper ceiling perimeters",
       "Vandal-safe security mesh insertion",
@@ -83,10 +83,10 @@ const actionsData: ClimateAction[] = [
     id: 4,
     category: "infrastructure",
     categoryLabel: "Infrastructure",
-    status: "In Progress",
+    status: "Planned",
     title: "Thermal Veranda Breezeways",
-    description: "Covered breezeways shielding interior living cells from direct exterior wall baking.",
-    impactMetric: "Provides microclimate buffer shading along exterior barrack walkways",
+    description: "Covered breezeways proposed to shield interior living cells from direct exterior wall heat.",
+    impactMetric: "Proposed Intervention: Microclimate buffer shading along outer corridors",
     sopSteps: [
       "Lightweight awning anchoring along outer verandas",
       "Creates a secondary microclimate thermal buffer",
@@ -99,8 +99,8 @@ const actionsData: ClimateAction[] = [
     categoryLabel: "Infrastructure",
     status: "Planned",
     title: "Solar Inverter Backups",
-    description: "Rooftop solar packs keeping ceiling fans running during summer power outages.",
-    impactMetric: "Proposed Target: Backup circulation power during peak summer grid blackouts",
+    description: "Rooftop solar backup proposed to keep ceiling fans running during summer power outages.",
+    impactMetric: "Proposed Target: Emergency power backup for critical ventilation during outages",
     sopSteps: [
       "5kW rooftop solar bank installation over dispensary and ward cores",
       "Battery bank synchronization for nighttime circulation",
@@ -113,7 +113,7 @@ const actionsData: ClimateAction[] = [
     categoryLabel: "Infrastructure",
     status: "Planned",
     title: "Permeable Courtyard Pavements",
-    description: "Hollow concrete pavers allowing rain percolation while curbing radiant ground heat.",
+    description: "Hollow concrete pavers proposed to allow rain percolation while curbing radiant ground heat.",
     impactMetric: "Proposed Target: Direct rainwater percolation into subsoil and radiant heat curb",
     sopSteps: [
       "Excavation of non-porous asphalt surfaces in assembly yard",
@@ -125,39 +125,39 @@ const actionsData: ClimateAction[] = [
     id: 7,
     category: "water",
     categoryLabel: "Water Conservation",
-    status: "In Progress",
+    status: "Planned",
     title: "Rooftop Rainwater Catchment",
-    description: "Barrack roof drains routed through sand-gravel filter chambers into sumps.",
-    impactMetric: "Proposed Capacity: Rainwater catchment network designed to harvest monsoon runoff",
+    description: "Proposed routing of barrack roof drains through sand-gravel filters into sumps for non-potable reuse.",
+    impactMetric: "Proposed Target: Harvest and store monsoon runoff for compound reuse",
     sopSteps: [
       "PVC gutter attachment along barrack perimeter rooflines",
       "Multi-stage sand, gravel, and charcoal first-flush chambers",
-      "Gravity feed into existing storage cisterns for non-potable use",
+      "Gravity feed into storage cisterns for non-potable custodial use",
     ],
   },
   {
     id: 8,
     category: "water",
     categoryLabel: "Water Conservation",
-    status: "In Progress",
+    status: "Planned",
     title: "Greywater Reed-Bed Biofilters",
-    description: "Root-zone biofilter treating laundry and ablution runoff for garden reuse.",
+    description: "Root-zone biofilter proposed for treating laundry and ablution runoff for garden reuse.",
     impactMetric:
       "Proposed Target: Explore the potential to treat and reuse up to 8,000 litres of greywater per day for garden irrigation, subject to technical assessment and implementation.",
     sopSteps: [
       "Diverting washing block wastewater through grease baffles",
       "Subsurface wetland trench planted with Typha and Canna indica reeds",
-      "Treated effluent channeled to permaculture and kitchen garden beds",
+      "Treated effluent channeled to kitchen garden beds",
     ],
   },
   {
     id: 9,
     category: "water",
     categoryLabel: "Water Conservation",
-    status: "Active",
+    status: "Planned",
     title: "Push Aerators & Flow Restrictors",
-    description: "Tamper-resistant brass aerator caps regulating flow rates across washblocks.",
-    impactMetric: "Operational: Regulates tap flow rates to curb daily water wastage",
+    description: "Tamper-resistant aerators and regulated self-closing valves proposed to curb tap water wastage.",
+    impactMetric: "Proposed Intervention: Regulated flow nozzles to curb custodial water wastage",
     sopSteps: [
       "Fitting self-closing mechanical timed valves in ablution rows",
       "Replacing unrestricted open spigots with tamper-resistant low-flow nozzles",
@@ -168,10 +168,10 @@ const actionsData: ClimateAction[] = [
     id: 10,
     category: "water",
     categoryLabel: "Water Conservation",
-    status: "In Progress",
+    status: "Planned",
     title: "Subsurface Drip Irrigation",
-    description: "Root-zone drip lines for kitchen gardens operating without fossil pumps.",
-    impactMetric: "Water Efficiency Target: Gravity-fed drip laterals minimizing evaporative loss",
+    description: "Low-pressure gravity drip laterals proposed to deliver water directly to plant root zones.",
+    impactMetric: "Proposed Target: Root-zone drip lines to minimize evaporative water loss",
     sopSteps: [
       "Connecting elevated water cisterns to low-pressure drip laterals",
       "Emitters placed directly at crop roots minimizing evaporation",
@@ -184,8 +184,8 @@ const actionsData: ClimateAction[] = [
     categoryLabel: "Water Conservation",
     status: "Planned",
     title: "Deep Aquifer Recharge Pits",
-    description: "Direct percolation shafts directing surplus storm runoff past clay strata.",
-    impactMetric: "Proposed Target: Deep aquifer groundwater replenishment in water-stressed region",
+    description: "Direct percolation shafts proposed to channel surplus stormwater into local groundwater strata.",
+    impactMetric: "Proposed Target: Deep groundwater replenishment for regional subsoil strata",
     sopSteps: [
       "Drilling recharge bores with slotted casing pipes",
       "Graded boulder and gravel filtration pits catching runoff overflow",
@@ -197,27 +197,29 @@ const actionsData: ClimateAction[] = [
     category: "water",
     categoryLabel: "Water Conservation",
     status: "Verified",
-    title: "Tank Thermal Covers & Leak Audits",
-    description: "XLPE thermal sheet protective insulation on water tanks and regular leak audit routines.",
-    impactMetric: "Verified Implementation: Protective XLPE covers installed on overhead tanks",
+    title: "Water Tank Thermal Protective Covers",
+    description:
+      "Researched and developed practical XLPE-based protective covers for water tanks. Inmates were trained and actively participated in fabricating and installing covers on approximately 180 water tanks, with observed water temperature reduction.",
+    impactMetric: "Verified Field Intervention: ~180 water tanks covered with XLPE sheets by inmates",
     sopSteps: [
-      "Installation of XLPE reflective insulation sheets on overhead water tanks",
-      "Mechanical weighted float gauges installed with visual markers",
-      "Shift-wise leak logbooks and immediate washer replacements",
+      "Practical XLPE cover design and fabrication methodology researched and developed",
+      "Inmates trained in preparing, measuring, and assembling protective covers",
+      "Active inmate participation in installing protective covers across ~180 water tanks",
+      "Observed water temperature reduction during high-heat periods",
     ],
   },
   {
     id: 13,
     category: "waste",
     categoryLabel: "Waste Management",
-    status: "Active",
+    status: "Planned",
     title: "Kitchen Source Segregation",
-    description: "Stainless mess bins separating organic vegetable scraps and dry packaging materials.",
-    impactMetric: "Operational: Daily source segregation of organic kitchen peelings initiated",
+    description: "Dedicated color-coded mess bins proposed for separating vegetable peelings, food scraps, and dry packaging.",
+    impactMetric: "Proposed Intervention: Source segregation of kitchen vegetable scraps and packaging",
     sopSteps: [
       "Green stainless bins for vegetable peels and meal scraps",
       "Blue bins for dry packaging cardboard and plastic containers",
-      "Direct daily transfer from kitchen mess to designated processing area",
+      "Daily transfer protocol from mess kitchen to designated processing yard",
     ],
   },
   {
@@ -226,24 +228,26 @@ const actionsData: ClimateAction[] = [
     categoryLabel: "Waste Management",
     status: "In Progress",
     title: "Aerobic Vermicomposting Beds",
-    description: "Raised brick pits with earthworms under development to process organic kitchen waste.",
-    impactMetric: "Proposed Model: On-site vermicomposting beds under development to process kitchen waste",
+    description:
+      "Brought earthworms, established vermicomposting beds, and constructed a compost pit. The objective is to utilize prison kitchen waste to produce organic manure; regular daily processing is under development.",
+    impactMetric: "Infrastructure In Progress: Earthworms brought, beds set up & compost pit constructed",
     sopSteps: [
-      "Layering dried leaves, pre-composted vegetable waste, and cow dung",
-      "Inoculation with Eisenia fetida red wiggler worm colonies",
-      "Moisture monitoring and bi-weekly turning by trained cohorts",
+      "Compost pit excavated and constructed on site",
+      "Vermicomposting beds established with earthworms introduced",
+      "Development of waste collection protocols from prison kitchen",
+      "Compost maturation and regular operational processing under development",
     ],
   },
   {
     id: 15,
     category: "waste",
     categoryLabel: "Waste Management",
-    status: "Active",
+    status: "Planned",
     title: "Zero Open-Burning Protocol",
-    description: "Directive prohibiting open burning of leaf litter and trash within jail grounds.",
-    impactMetric: "Operational: Eliminates toxic smoke plumes; channels foliage to composting",
+    description: "Proposed administrative directive to eliminate open burning of leaf litter and waste within grounds.",
+    impactMetric: "Proposed Intervention: Channel leaf litter into compost rather than open burning",
     sopSteps: [
-      "Strict administrative directive prohibiting open leaf/trash fires",
+      "Administrative directive prohibiting open leaf/trash fires",
       "Leaf litter channeled into compost carbon bulk supply",
       "Respiratory health protection for wardens and inmate dormitories",
     ],
@@ -252,9 +256,9 @@ const actionsData: ClimateAction[] = [
     id: 16,
     category: "waste",
     categoryLabel: "Waste Management",
-    status: "In Progress",
-    title: "Dry Recyclables Baling",
-    description: "Sorting clean cardboard and packaging materials for organized recycling collection.",
+    status: "Planned",
+    title: "Dry Recyclables Recovery & Baling",
+    description: "Sorting and baling system proposed for clean cardboard and packaging materials for authorized recycling.",
     impactMetric:
       "Proposed Target: Develop a recyclable waste recovery system with the potential to generate revenue for the Inmate Welfare Fund. Estimated monthly revenue will be reported after implementation and financial verification.",
     sopSteps: [
@@ -267,10 +271,10 @@ const actionsData: ClimateAction[] = [
     id: 17,
     category: "waste",
     categoryLabel: "Waste Management",
-    status: "In Progress",
+    status: "Planned",
     title: "Bio-Enzyme Floor Cleaners",
-    description: "Fermenting citrus fruit peels with jaggery and water to produce natural acidic sanitation cleaner.",
-    impactMetric: "Pilot testing of natural citrus enzyme cleaner to reduce reliance on chemical phenyl",
+    description: "Proposed fermentation of citrus fruit peels and jaggery into natural acidic sanitation cleaner.",
+    impactMetric: "Proposed Intervention: Natural citrus enzyme cleaner to reduce chemical reliance",
     sopSteps: [
       "Fermentation barrels populated with citrus scraps, jaggery, and water",
       "90-day anaerobic fermentation produces natural acidic enzyme cleaner",
@@ -281,10 +285,10 @@ const actionsData: ClimateAction[] = [
     id: 18,
     category: "waste",
     categoryLabel: "Waste Management",
-    status: "Active",
-    title: "Hazardous & Medical Segregation",
-    description: "Puncture-proof yellow disposal containers for dispensary clinical sharps and blades.",
-    impactMetric: "Operational: Standard biomedical waste protocol compliance inside dispensary",
+    status: "Planned",
+    title: "Biomedical & Sharps Segregation",
+    description: "Standardized puncture-proof containers proposed in dispensary for clinical sharps and medical waste.",
+    impactMetric: "Proposed Target: Standard biomedical waste protocol compliance inside dispensary",
     sopSteps: [
       "Yellow puncture-proof containers in dispensary for syringes & blades",
       "Autoclave protocol before authorized hospital pickup",
@@ -297,22 +301,25 @@ const actionsData: ClimateAction[] = [
     categoryLabel: "Green Practices",
     status: "In Progress",
     title: "Kitchen Gardening Initiative (Pak Shala)",
-    description: "Raised garden plots prepared at Pak Shala demonstration compound to cultivate fresh seasonal vegetables.",
-    impactMetric: "Implementation Prepared: Permission secured; seeds and essential gardening tools arranged",
+    description:
+      "Analyzed land and soil, consulted founder of Fertile Beeghas for technical guidance, secured Prison Department permission, developed vegetable beds, herbal beds, fruit beds, and mother beds, and arranged seeds and essential tools.",
+    impactMetric: "Beds Prepared: Vegetable, herbal, fruit & mother beds prepared; seeds and tools arranged",
     sopSteps: [
-      "Raised planting beds enriched with compost and organic amendments",
-      "Seasonal crop planning: bottle gourd, spinach, fenugreek, and brinjal",
-      "Planned cultivation engaging incarcerated agricultural trainees",
+      "Land and soil assessment conducted across the prison compound",
+      "Technical guidance obtained from founder of Fertile Beeghas",
+      "Formal departmental permission secured from Haryana Prison Department",
+      "Establishment of vegetable beds, herbal beds, fruit beds, and mother beds",
+      "Seeds and essential gardening tools arranged in preparation for full planting",
     ],
   },
   {
     id: 20,
     category: "green",
     categoryLabel: "Green Practices",
-    status: "In Progress",
+    status: "Planned",
     title: "Drought-Hardy Native Tree Canopy",
-    description: "Planting native trees like Neem, Peepal, and Jamun along perimeter boundaries to create shade.",
-    impactMetric: "Ongoing Plantation: Native tree saplings planted along perimeter grounds",
+    description: "Planting native trees like Neem, Peepal, and Jamun proposed along perimeter boundaries for shade.",
+    impactMetric: "Proposed Activity: Native tree plantation to provide long-term shade and windbreaks",
     sopSteps: [
       "Planting fast-growing native hardy trees along outer wall borders",
       "Deep basin mulching with shredded prison paper and leaf waste",
@@ -323,10 +330,10 @@ const actionsData: ClimateAction[] = [
     id: 21,
     category: "green",
     categoryLabel: "Green Practices",
-    status: "In Progress",
-    title: "High-Nutrition Moringa Groves",
-    description: "Fast-growing drumstick trees providing bioavailable iron and vitamins for barrack diets.",
-    impactMetric: "Ongoing: Moringa trees planted to supplement nutrition in custodial mess",
+    status: "Planned",
+    title: "High-Nutrition Moringa Planting",
+    description: "Fast-growing drumstick trees proposed to provide bioavailable iron and vitamins for barrack diets.",
+    impactMetric: "Proposed Intervention: Fast-growing moringa trees to supplement mess nutrition",
     sopSteps: [
       "High-density moringa planting in central courtyard perimeter",
       "Weekly leaf harvesting incorporated into standard dal rations",
@@ -337,10 +344,10 @@ const actionsData: ClimateAction[] = [
     id: 22,
     category: "green",
     categoryLabel: "Green Practices",
-    status: "In Progress",
+    status: "Planned",
     title: "Anti-Mosquito Botanical Belts",
-    description: "Border plantings of Tulsi, Citronella, and Lemongrass along drains to naturally deter vectors.",
-    impactMetric: "Ongoing: Aromatic herb borders planted to naturally deter mosquitoes",
+    description: "Perimeter borders of Tulsi, Citronella, and Lemongrass proposed along drainage channels.",
+    impactMetric: "Proposed Intervention: Aromatic herb borders to naturally deter vector insects",
     sopSteps: [
       "Aromatic herb borders planted along ablution perimeter trenches",
       "Natural essential oils repel mosquitoes and vector insects",
@@ -351,10 +358,10 @@ const actionsData: ClimateAction[] = [
     id: 23,
     category: "green",
     categoryLabel: "Green Practices",
-    status: "In Progress",
+    status: "Planned",
     title: "Heirloom Seed-Bank & Nursery",
-    description: "Preserving and drying open-pollinated vegetable seeds for self-sufficient ongoing propagation.",
-    impactMetric: "Preparation: Nursery bed setup and seed preservation for seasonal planting",
+    description: "Preserving and drying open-pollinated vegetable seeds proposed for continuous propagation.",
+    impactMetric: "Proposed Activity: On-site nursery bed setup and seed preservation",
     sopSteps: [
       "Selecting hardiest heirloom parent plants each harvest cycle",
       "Seed desiccation, labelling, and airtight glass jar storage",
@@ -365,10 +372,10 @@ const actionsData: ClimateAction[] = [
     id: 24,
     category: "green",
     categoryLabel: "Green Practices",
-    status: "In Progress",
-    title: "Botanical Pest Brews",
-    description: "Neem-based botanical sprays tested as non-toxic alternatives to chemical pesticides.",
-    impactMetric: "Tested: Organic neem-based sprays replacing hazardous chemical pesticides",
+    status: "Planned",
+    title: "Organic Botanical Pest Brews",
+    description: "Neem-based natural sprays proposed as non-toxic alternatives to chemical insecticides.",
+    impactMetric: "Proposed Target: Organic botanical sprays replacing hazardous chemical pesticides",
     sopSteps: [
       "Boiling neem foliage with garlic, green chilies, and cow urine",
       "Fermented liquid strained and diluted for foliar garden spraying",
@@ -379,40 +386,42 @@ const actionsData: ClimateAction[] = [
     id: 25,
     category: "education",
     categoryLabel: "Education",
-    status: "Verified",
-    title: "Staff-Inmate Climate Classes",
-    description: "Climate awareness sessions conducted to promote environmental understanding among prison stakeholders.",
-    impactMetric: "165 Certified Civic Climate Stewards – Individuals trained or certified through climate awareness and stewardship programmes",
+    status: "Active",
+    title: "Climate Awareness & Environmental Learning",
+    description:
+      "Conducted climate awareness and environmental learning sessions with inmates and prison stakeholders to foster environmental understanding and heat defense.",
+    impactMetric: "Active Implementation: Climate awareness & environmental learning sessions conducted",
     sopSteps: [
-      "Classroom modules covering heat defense, water audits, and soil science",
-      "Joint warden-inmate discussion panels building mutual trust",
-      "Bi-lingual pictorial guides designed for varied literacy backgrounds",
+      "Interactive learning sessions covering heat stress, climate challenges, and ecology",
+      "Engagement with custodial staff, leadership, and incarcerated cohorts",
+      "Practical discussions on personal heat resilience and compound sustainability",
     ],
   },
   {
     id: 26,
     category: "education",
     categoryLabel: "Education",
-    status: "In Progress",
-    title: "Agricultural Training Cohort",
-    description: "Engaging incarcerated individuals in hands-on agricultural and kitchen gardening activities.",
-    impactMetric: "120+ Agricultural Trainees – Individuals engaged in agricultural and kitchen gardening activities",
+    status: "Active",
+    title: "Inmate Organic Farming Training",
+    description:
+      "Conducted hands-on organic farming training for inmates, engaging those who had previous farming experience, came from farming families, or were interested in pursuing farming after release.",
+    impactMetric: "Active Implementation: Organic farming training conducted with farming cohorts",
     sopSteps: [
-      "Cohort formation for hands-on garden bed preparation",
-      "Daily checklist audits inspecting running taps and soil moisture",
-      "Weekly debrief with prison coordinators on garden progress",
+      "Engagement of inmates from agricultural backgrounds or interested in post-release farming",
+      "Hands-on training in soil preparation, bed conditioning, and organic techniques",
+      "Building practical agricultural knowledge and potential post-release livelihood skills",
     ],
   },
   {
     id: 27,
     category: "education",
     categoryLabel: "Education",
-    status: "In Progress",
+    status: "Planned",
     title: "Peer Eco-Ambassador Cohort",
-    description: "Designated inmate monitors participating in daily water-saving and waste segregation checks.",
-    impactMetric: "Inmate peer ambassadors participating in daily water and hygiene checks",
+    description: "Cohort of designated inmate peer monitors proposed to participate in daily water and waste checks.",
+    impactMetric: "Proposed Activity: Inmate peer monitors to support daily water and hygiene checks",
     sopSteps: [
-      "Appointment of barrack climate monitors and eco-captains",
+      "Selection of barrack monitors and eco-captains",
       "Daily checklist audits inspecting dripping spigots and light switches",
       "Coordination with custodial officers on maintenance needs",
     ],
@@ -422,9 +431,9 @@ const actionsData: ClimateAction[] = [
     category: "education",
     categoryLabel: "Education",
     status: "Planned",
-    title: "Vocational Farm Certificates",
-    description: "Vocational training curriculum being developed for organic farming and nursery management.",
-    impactMetric: "Proposed Model: Vocational curriculum under development for sustainable post-release livelihoods",
+    title: "Vocational Agroecology Certification",
+    description: "Structured skills curriculum proposed to provide formal credentials in organic farming upon release.",
+    impactMetric: "Proposed Model: Structured curriculum for post-release agricultural credentials",
     sopSteps: [
       "Vocational coursework structure in organic agriculture and compost management",
       "Hands-on skill testing covering irrigation, composting, and nursery care",
@@ -435,10 +444,10 @@ const actionsData: ClimateAction[] = [
     id: 29,
     category: "education",
     categoryLabel: "Education",
-    status: "In Progress",
+    status: "Planned",
     title: "Ecotherapy Mindfulness",
-    description: "Outdoor green space engagement to support mental wellbeing and reduce confinement stress.",
-    impactMetric: "Active Engagement: Daily morning garden work supporting mental health & stress relief",
+    description: "Outdoor green space engagement proposed to support inmate mental wellbeing and alleviate confinement stress.",
+    impactMetric: "Proposed Activity: Outdoor garden work supporting mental health & stress relief",
     sopSteps: [
       "Morning grounding and soil work in prepared garden compounds",
       "Feedback collection on wellbeing and anxiety reduction",
@@ -449,14 +458,15 @@ const actionsData: ClimateAction[] = [
     id: 30,
     category: "education",
     categoryLabel: "Education",
-    status: "In Progress",
-    title: "Correctional Climate Resilience SOPs",
-    description: "Synthesizing Nuh Jail field records into standard operating procedures for institutional prison resilience.",
-    impactMetric: "Documentation: Compiling field data and standard operating manuals for prison directorates",
+    status: "Active",
+    title: "Prison Heat Action Plan",
+    description:
+      "Developed a site-specific Heat Action Plan for Nuh District Jail to mitigate extreme summer temperatures, improve hydration access, and protect health across the facility.",
+    impactMetric: "Active Implementation: Nuh District Jail Heat Action Plan developed",
     sopSteps: [
-      "Compiling heat mitigation records, water management, and garden layouts",
-      "Drafting open-access SOP handbook for state correctional departments",
-      "Engagement with national correctional administration stakeholders",
+      "Assessment of thermal exposure points and high-heat zones across barracks",
+      "Formulation of immediate passive cooling, water tank insulation, and hydration protocols",
+      "Coordination with prison administration on summer heat defense operational guidelines",
     ],
   },
 ];
@@ -466,6 +476,11 @@ export function ClimateActions() {
   const [selectedStatus, setSelectedStatus] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeSopAction, setActiveSopAction] = useState<ClimateAction | null>(null);
+
+  const verifiedCount = actionsData.filter((a) => a.status === "Verified").length;
+  const activeCount = actionsData.filter((a) => a.status === "Active").length;
+  const inProgressCount = actionsData.filter((a) => a.status === "In Progress").length;
+  const plannedCount = actionsData.filter((a) => a.status === "Planned").length;
 
   const filteredActions = actionsData.filter((action) => {
     const matchesCategory =
@@ -507,11 +522,11 @@ export function ClimateActions() {
               30 Climate Actions Audit
             </h2>
             <p className="text-sm sm:text-base text-[#5A6255]">
-              Standardized interventions transforming correctional compounds into climate-resilient restorative spaces. All 30 actions are audited by verified implementation status.
+              Standardized interventions transforming correctional compounds into climate-resilient restorative spaces. All 30 actions are audited by actual implementation status at Nuh District Jail.
             </p>
           </div>
 
-          {/* Audit Status Card */}
+          {/* Audit Status Card (Dynamically Recalculated) */}
           <div className="p-4 rounded-2xl bg-[#FAF9F5] border border-[#E2DDD2] shadow-xs min-w-[300px]">
             <div className="flex items-center justify-between text-xs font-bold text-[#1A1C19] mb-2">
               <span className="flex items-center gap-1.5">
@@ -522,23 +537,23 @@ export function ClimateActions() {
             <div className="grid grid-cols-2 gap-2 text-[11px] pt-2 border-t border-[#E2DDD2]">
               <div className="flex items-center justify-between p-1.5 rounded-lg bg-white border border-[#BAE6FD]">
                 <span className="text-[#0369A1] font-bold">Verified:</span>
-                <span className="font-extrabold text-[#1A1C19]">3</span>
+                <span className="font-extrabold text-[#1A1C19]">{verifiedCount}</span>
               </div>
               <div className="flex items-center justify-between p-1.5 rounded-lg bg-white border border-[#CDE5C2]">
                 <span className="text-[#12560E] font-bold">Active:</span>
-                <span className="font-extrabold text-[#1A1C19]">5</span>
+                <span className="font-extrabold text-[#1A1C19]">{activeCount}</span>
               </div>
               <div className="flex items-center justify-between p-1.5 rounded-lg bg-white border border-[#FDE047]">
                 <span className="text-[#854D0E] font-bold">In Progress:</span>
-                <span className="font-extrabold text-[#1A1C19]">18</span>
+                <span className="font-extrabold text-[#1A1C19]">{inProgressCount}</span>
               </div>
               <div className="flex items-center justify-between p-1.5 rounded-lg bg-white border border-[#E2DDD2]">
                 <span className="text-[#5A6255] font-bold">Planned:</span>
-                <span className="font-extrabold text-[#1A1C19]">4</span>
+                <span className="font-extrabold text-[#1A1C19]">{plannedCount}</span>
               </div>
             </div>
             <p className="text-[10px] text-[#7A8275] mt-2 text-center">
-              Distinguishes operational achievements from ongoing and planned interventions.
+              Distinguishes initiated & operational groundwork from the broader planned framework.
             </p>
           </div>
         </div>
@@ -632,7 +647,7 @@ export function ClimateActions() {
                   : "bg-[#FAF9F5] text-[#5A6255] border border-[#E2DDD2] hover:bg-white"
               }`}
             >
-              All Statuses
+              All Statuses (30)
             </button>
             <button
               type="button"
@@ -643,7 +658,7 @@ export function ClimateActions() {
                   : "bg-[#E0F2FE] text-[#0369A1] border border-[#BAE6FD]"
               }`}
             >
-              Verified (3)
+              Verified ({verifiedCount})
             </button>
             <button
               type="button"
@@ -654,7 +669,7 @@ export function ClimateActions() {
                   : "bg-[#EBF4E8] text-[#12560E] border border-[#CDE5C2]"
               }`}
             >
-              Active (5)
+              Active ({activeCount})
             </button>
             <button
               type="button"
@@ -665,7 +680,7 @@ export function ClimateActions() {
                   : "bg-[#FEF9C3] text-[#854D0E] border border-[#FDE047]"
               }`}
             >
-              In Progress (18)
+              In Progress ({inProgressCount})
             </button>
             <button
               type="button"
@@ -676,7 +691,7 @@ export function ClimateActions() {
                   : "bg-[#F4F3ED] text-[#5A6255] border border-[#E2DDD2]"
               }`}
             >
-              Planned (4)
+              Planned ({plannedCount})
             </button>
           </div>
         </div>

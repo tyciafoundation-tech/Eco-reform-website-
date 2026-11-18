@@ -1,5 +1,16 @@
 import React from "react";
-import { ThermometerSun, Sprout, GraduationCap, Building2, CheckCircle2, ShieldCheck } from "lucide-react";
+import {
+  ThermometerSun,
+  Sprout,
+  GraduationCap,
+  Building2,
+  CheckCircle2,
+  ShieldCheck,
+  Recycle,
+  Users,
+  Flame,
+  Truck,
+} from "lucide-react";
 import nuhJailPhoto from "@/images/district-jail-nuh-entrance.jpg";
 import gardenFieldPhoto from "@/images/eco-reform-pilot-kitchen-garden-nuh.jpg";
 
@@ -19,44 +30,62 @@ const fieldUpdates: FieldUpdateItem[] = [
   {
     id: "heat-adaptation",
     category: "Heat Adaptation",
-    title: "Heat Adaptation at Nuh District Jail",
+    title: "Water Tank Protective Covers (~180 Tanks)",
     description:
-      "XLPE sheet-based protective covers installed on water tanks as a practical heat adaptation intervention to prevent extreme water heating during peak summer temperatures.",
-    status: "Implemented Intervention",
+      "Researched and developed a practical method for making protective XLPE-based water tank covers. Trained inmates who actively participated in fabricating and installing covers on approximately 180 water tanks across the facility, resulting in observed water temperature reduction during high-heat periods.",
+    status: "Verified Groundwork",
     icon: ThermometerSun,
     photo: nuhJailPhoto,
     photoAlt: "Nuh District Jail main entrance - Pilot location for Eco-Reform interventions",
-    photoCaption: "Field Facility: District Jail, Nuh (Haryana) — Pilot Implementation Site",
+    photoCaption: "Field Facility: District Jail, Nuh (Haryana) — ~180 Water Tanks Covered",
   },
   {
     id: "kitchen-garden",
     category: "Nutritional Resilience",
-    title: "Kitchen Gardening Initiative",
+    title: "Soil Assessment & Kitchen Gardening Spaces",
     description:
-      "Permission secured and seeds and essential gardening tools arranged in preparation for implementation across the mapped Pak Shala demonstration compound.",
-    status: "Prepared for Cultivation",
+      "Analyzed available land and soil inside the prison with technical guidance from the founder of Fertile Beeghas, and obtained permission from the Prison Department. Developed designated kitchen gardening spaces including vegetable beds, herbal beds, fruit beds, and mother beds, with seeds and essential tools arranged.",
+    status: "Beds Prepared",
     icon: Sprout,
     photo: gardenFieldPhoto,
     photoAlt: "Authentic field photograph of kitchen garden preparation and tools at Nuh District Jail",
-    photoCaption: "Field Record: Ground preparation & gardening tools arranged at Nuh District Jail",
+    photoCaption: "Field Record: Ground preparation & bed layout at Nuh District Jail",
   },
   {
-    id: "climate-awareness",
-    category: "Stakeholder Education",
-    title: "Climate Awareness",
+    id: "vermicomposting",
+    category: "Organic Waste",
+    title: "Vermicomposting Beds & Compost Pit",
     description:
-      "Climate awareness sessions conducted to promote environmental understanding and climate-adaptive practices among prison stakeholders, custodial staff, and inmate cohorts.",
-    status: "Field Sessions Conducted",
-    icon: GraduationCap,
+      "Brought earthworms, established vermicomposting beds, and constructed a compost pit on site. The objective is to utilize prison kitchen waste to produce organic manure; regular daily compost production and waste processing are under development.",
+    status: "Infrastructure Set Up",
+    icon: Recycle,
   },
   {
-    id: "institutional-collaboration",
-    category: "Systemic Reform",
-    title: "Institutional Collaboration",
+    id: "inmate-training",
+    category: "Capacity Building",
+    title: "Inmate Organic Farming Training",
     description:
-      "Continued engagement with prison administration to explore, design, and validate climate-resilience interventions within correctional facilities.",
-    status: "Ongoing Engagement",
-    icon: Building2,
+      "Conducted organic farming training for inmates, specifically engaging those with previous farming experience, those from farming families, or those interested in pursuing agriculture for post-release livelihoods.",
+    status: "Training Conducted",
+    icon: Users,
+  },
+  {
+    id: "climate-planning",
+    category: "Climate Planning",
+    title: "Climate Awareness & Heat Action Plan",
+    description:
+      "Conducted climate awareness and environmental learning sessions with inmates, and formulated a site-specific Heat Action Plan for Nuh District Jail to mitigate thermal stress and improve hydration protocols.",
+    status: "Plan Formulated",
+    icon: Flame,
+  },
+  {
+    id: "mobility-assessment",
+    category: "Mobility & Logistics",
+    title: "Carbon Footprint & Supply Mobility Assessment",
+    description:
+      "Assessed the prison's carbon footprint and daily vehicle movement, tracking frequent vegetable supply vans and trucks bringing food supplies, alongside court transit vans and ambulances. Identified vital opportunities to explore on-site food production and reduce external procurement transportation in the future.",
+    status: "Assessment Completed",
+    icon: Truck,
   },
 ];
 
@@ -73,12 +102,12 @@ export function ImpactStories() {
             Verified Field Impact
           </h2>
           <p className="text-xs sm:text-base text-[#5A6255]">
-            Documented on-ground progress and verified interventions underway at Nuh District Jail, Haryana.
+            Documented on-ground progress and actual interventions completed at Nuh District Jail, Haryana.
           </p>
         </div>
 
-        {/* 4 Field Update Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+        {/* 6 Field Update Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {fieldUpdates.map((update) => {
             const Icon = update.icon;
             return (
