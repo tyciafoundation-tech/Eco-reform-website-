@@ -67,15 +67,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>~180 Tank Covers Installed:</strong> XLPE protective covers fabricated and installed on water tanks</span>
+                    <span><strong>Tank Protective Covers:</strong> XLPE thermal insulation installed on water tanks</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Inmate Participation:</strong> Inmates trained to prepare and actively install protective tank covers</span>
+                    <span><strong>Passive Cooling:</strong> Solar-reflective roof coating & reed window screens</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Heat Action Plan:</strong> Site-specific plan developed (other passive cooling remains planned)</span>
+                    <span><strong>Ventilation Louvers:</strong> Natural airflow enhancement solutions under development</span>
                   </li>
                 </ul>
               </div>
@@ -100,15 +100,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Soil & Land Assessment:</strong> Available prison land and soil analyzed with technical guidance</span>
+                    <span><strong>Rainwater Harvesting:</strong> Planned rooftop catchment into sand-gravel filter cisterns</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Garden Beds Prepared:</strong> Vegetable, herbal, fruit & mother beds prepared; seeds/tools arranged</span>
+                    <span><strong>Circular Composting:</strong> Organic waste sorting and vermicomposting under development</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Vermicompost Setup:</strong> Earthworms brought, beds set up & pit built (processing under development)</span>
+                    <span><strong>Greywater Reuse:</strong> Proposed target to explore biofilter treatment for irrigation</span>
                   </li>
                 </ul>
               </div>
@@ -133,15 +133,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Climate Awareness:</strong> Environmental learning sessions conducted with inmates and staff</span>
+                    <span><strong>Kitchen Garden:</strong> Pak Shala compound prepared; seeds and essential tools arranged</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Organic Farming Training:</strong> Practical agricultural training for inmates with farming backgrounds</span>
+                    <span><strong>Climate Awareness:</strong> Awareness sessions conducted with prison stakeholders</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Sustainable Skills:</strong> Hands-on kitchen gardening skills introduced for post-release opportunities</span>
+                    <span><strong>Vocational Training:</strong> Practical curriculum under development for sustainable re-entry</span>
                   </li>
                 </ul>
               </div>
