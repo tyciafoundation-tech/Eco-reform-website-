@@ -229,13 +229,13 @@ const actionsData: ClimateAction[] = [
     status: "In Progress",
     title: "Aerobic Vermicomposting Beds",
     description:
-      "Brought earthworms, established vermicomposting beds, and constructed a compost pit. The objective is to utilize prison kitchen waste to produce organic manure; regular daily processing is under development.",
-    impactMetric: "Infrastructure In Progress: Earthworms brought, beds set up & compost pit constructed",
+      "Composting infrastructure has been established on site with earthworms brought, vermicomposting beds set up, and a compost pit constructed. Regular kitchen-waste processing and daily compost production are not yet operational and remain under development.",
+    impactMetric: "Infrastructure Established: Earthworms brought, beds & pit set up; regular daily processing not yet operational",
     sopSteps: [
       "Compost pit excavated and constructed on site",
       "Vermicomposting beds established with earthworms introduced",
-      "Development of waste collection protocols from prison kitchen",
-      "Compost maturation and regular operational processing under development",
+      "Kitchen-waste segregation protocols under development",
+      "Regular daily kitchen-waste processing and compost production pending operational rollout",
     ],
   },
   {

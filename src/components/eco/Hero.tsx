@@ -231,7 +231,7 @@ export function Hero() {
         {/* Validation and Support Strip */}
         <div className="p-2.5 sm:p-3 rounded-xl sm:rounded-2xl bg-[#F4F3ED]/90 backdrop-blur-md border border-[#E2DDD2] flex flex-col lg:flex-row lg:items-center justify-between gap-2.5 text-xs shadow-2xs">
           <span className="font-extrabold uppercase tracking-wider text-[#5A6255] text-[10px] sm:text-[11px] shrink-0">
-            VALIDATED & SUPPORTED BY:
+            INSTITUTIONAL PARTNERS & ECOSYSTEM COLLABORATORS:
           </span>
           <div className="flex flex-wrap items-center gap-3 sm:gap-6 font-bold text-[#1A1C19] text-[11px] sm:text-xs">
             <span className="flex items-center gap-1.5">

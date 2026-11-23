@@ -56,7 +56,7 @@ const fieldUpdates: FieldUpdateItem[] = [
     category: "Organic Waste",
     title: "Vermicomposting Beds & Compost Pit",
     description:
-      "Brought earthworms, established vermicomposting beds, and constructed a compost pit on site. The objective is to utilize prison kitchen waste to produce organic manure; regular daily compost production and waste processing are under development.",
+      "Infrastructure established on site with earthworms brought, vermicomposting beds set up, and a compost pit constructed. Regular kitchen-waste processing and daily compost production are not yet operational and remain under development.",
     status: "Infrastructure Set Up",
     icon: Recycle,
   },

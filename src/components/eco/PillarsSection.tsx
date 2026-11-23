@@ -17,7 +17,7 @@ export function PillarsSection() {
               Holistic Action Model
             </h2>
             <p className="text-xs sm:text-base text-[#5A6255]">
-              Targeting heat relief, decentralized water/waste circularity, and accredited vocational skills.
+              Targeting heat relief, decentralized water/waste circularity, and vocational skill pathways.
             </p>
           </div>
 
@@ -67,15 +67,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Tank Protective Covers:</strong> XLPE thermal insulation installed on water tanks</span>
+                    <span><strong>Tank Protective Covers:</strong> Approximately 180 thermal insulation covers installed on water tanks</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Passive Cooling:</strong> Solar-reflective roof coating & reed window screens</span>
+                    <span><strong>Heat Action Plan:</strong> Facility-specific thermal safety protocol and heat response planning</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Ventilation Louvers:</strong> Natural airflow enhancement solutions under development</span>
+                    <span><strong>Passive Cooling Options:</strong> Roof coatings and window shading under study as future retrofits</span>
                   </li>
                 </ul>
               </div>
@@ -100,15 +100,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Rainwater Harvesting:</strong> Planned rooftop catchment into sand-gravel filter cisterns</span>
+                    <span><strong>Composting Infrastructure:</strong> Earthworms introduced, vermicomposting beds established, and compost pit constructed (regular kitchen-waste processing and daily compost production not yet started)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Circular Composting:</strong> Organic waste sorting and vermicomposting under development</span>
+                    <span><strong>Soil & Garden Preparation:</strong> Soil assessment and land preparation completed for kitchen garden cultivation</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Greywater Reuse:</strong> Proposed target to explore biofilter treatment for irrigation</span>
+                    <span><strong>Water Systems Planning:</strong> Planned rooftop rainwater harvesting and greywater filtration models under design</span>
                   </li>
                 </ul>
               </div>
@@ -133,15 +133,15 @@ export function PillarsSection() {
                 <ul className="space-y-2 pt-2 border-t border-[#F0EDE4] text-xs text-[#3A4036]">
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Kitchen Garden:</strong> Pak Shala compound prepared; seeds and essential tools arranged</span>
+                    <span><strong>Climate Awareness:</strong> Climate awareness sessions conducted with incarcerated cohorts and facility staff</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Climate Awareness:</strong> Awareness sessions conducted with prison stakeholders</span>
+                    <span><strong>Organic Farming Training:</strong> Practical organic farming training sessions conducted on ground</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="size-3.5 text-[#12560E] shrink-0 mt-0.5" />
-                    <span><strong>Vocational Training:</strong> Practical curriculum under development for sustainable re-entry</span>
+                    <span><strong>Vocational Curriculum Pathway:</strong> Formal accredited vocational curriculum proposed and under development (not yet operational)</span>
                   </li>
                 </ul>
               </div>
